@@ -9,7 +9,7 @@ files.forEach(function (item, index) {
 
 let str = JSON.stringify(components)
  
- fs.writeFile('./videoUrl.json',str,function(err){
+ fs.writeFile('../../dongdong/src/mock/videoUrl.json',str,function(err){
  if (err) {
      console.log('error');
  }
